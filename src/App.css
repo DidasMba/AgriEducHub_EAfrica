@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-body-tertiary {
+  background-color: #144a05; /* Replace with your desired background color */
+}
