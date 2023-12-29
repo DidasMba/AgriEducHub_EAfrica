@@ -10,7 +10,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+//add1 
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,6 +22,8 @@ import {
 function Header()
 {
   return (
+    <Router>
+    <div>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand href="#">AgriLearn</Navbar.Brand>
@@ -32,10 +34,10 @@ function Header()
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">About</Nav.Link>
+            <Nav.Link as={Link} to={"/home"}>Home</Nav.Link>
+            <Nav.Link as={Link} to={"/courses"}>Courses</Nav.Link>
             <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action3">Forum</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Another action
               </NavDropdown.Item>
@@ -60,6 +62,8 @@ function Header()
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
+    </Router>
   );
 }
 
