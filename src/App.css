@@ -40,3 +40,14 @@
 .bg-body-tertiary {
   background-color: #144a05; /* Replace with your desired background color */
 }
+
+/* Navbar text color */
+.navbar-nav a,
+.navbar-brand {
+  color: white !important;
+}
+
+/* Navbar link hover color */
+.navbar-nav a:hover {
+  color: white !important;
+}
