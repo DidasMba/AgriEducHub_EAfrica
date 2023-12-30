@@ -2,6 +2,7 @@ import React from 'react';
 import {Navbar, Nav, Container} from 'react-bootstrap';
 //import Button from 'react-bootstrap/Button';
 //import { Button } from 'react-bootstrap';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 
@@ -12,11 +13,12 @@ import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 //add1 
 import {
-  BrowserRouter as Router,
-  Switch,
+  createBrowserRouter,
+  RouterProvider,
   Route,
-  Link
+  Link,
 } from "react-router-dom";
+
 
 
 function Header()
@@ -62,6 +64,19 @@ function Header()
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </div>
+    <div>
+    <Routes>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/users">
+            <Users />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+     </Routes>
     </div>
     </Router>
   );
