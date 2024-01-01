@@ -14,9 +14,9 @@ import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 //import your components
-import About from './About';
-import Users from './Users';
-import Home from './Home';
+import About from '../About';
+import Users from '../Users';
+import Home from '../Home';
 
 
 function Header()

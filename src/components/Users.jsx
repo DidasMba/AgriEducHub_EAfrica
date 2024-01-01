@@ -1,5 +1,5 @@
 //in About.js
-import React from 'react';
+//import React from 'react';
 
 function Users() {
   // ... code du composant ...
