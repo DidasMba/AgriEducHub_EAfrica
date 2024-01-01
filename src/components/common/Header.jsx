@@ -47,7 +47,7 @@ function Header()
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#" disabled>
-              Link
+              Profile
             </Nav.Link>
           </Nav>
           <Form className="d-flex">
