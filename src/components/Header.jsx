@@ -2,6 +2,7 @@ import React from 'react';
 import {Navbar, Nav, Container} from 'react-bootstrap';
 //import Button from 'react-bootstrap/Button';
 //import { Button } from 'react-bootstrap';
+//add
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
@@ -11,14 +12,11 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 import NavDropdown from 'react-bootstrap/NavDropdown';
-//add1 
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-} from "react-router-dom";
 
+//import your components
+import About from './About';
+import Users from './Users';
+import Home from './Home';
 
 
 function Header()
@@ -67,16 +65,10 @@ function Header()
     </div>
     <div>
     <Routes>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/users">
-            <Users />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-     </Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/users" element={<Users />} />
+          <Route path="/" element={<Home />} />
+    </Routes>
     </div>
     </Router>
   );
