@@ -26,7 +26,7 @@ function Header()
     <div>
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#">AgriLearn</Navbar.Brand>
+        <Navbar.Brand href="#" className='agrilearnband'>AgriLearn</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -36,7 +36,7 @@ function Header()
           >
             <Nav.Link as={Link} to={"/home"}>Home</Nav.Link>
             <Nav.Link as={Link} to={"/courses"}>Courses</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
+            <NavDropdown title="Forum" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Forum</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Another action
