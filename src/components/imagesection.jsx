@@ -6,10 +6,11 @@ function ImageSection() {
   return (
     <section>
       {/* Votre code pour l'image va ici */}
-      {/*<img src="chemin/vers/votre/image.jpg" alt="Description de l'image" />*/}
-      <img src="imgs/agripic.jpg" class="img-fluid" alt="Responsive image"></img>
+      <img src="imgs/agripic.jpg" alt="Description de l'image" />
+
     </section>
   );
 }
+
 
 export default ImageSection;

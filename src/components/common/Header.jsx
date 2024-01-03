@@ -13,7 +13,7 @@ import Form from 'react-bootstrap/Form';
 
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
-import '../Header.css'; // Import your custom CSS file
+import './Header.css'; // Import your custom CSS file
 import ImageSection from '../ImageSection';
 
 //import your components
