@@ -6,10 +6,9 @@ function ImageSection() {
   return (
     <section>
       {/* big image agriculure */}
-      <img src="imgs/agripic.jpg" alt="A cat" />
-
-
-
+      <img src="/agripic.jpg" class="agriimage" alt="agriimag" />
+     
+   
 
     </section>
   );
