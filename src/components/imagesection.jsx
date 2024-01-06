@@ -10,7 +10,7 @@ function ImageSection() {
   fetchpriority="high"
   decoding="async"
   width="100%"
-  height="100vh"
+  height="700"
   alt=""
   style={{ objectPosition: '50% 36%' }}
   data-object-fit="cover"
