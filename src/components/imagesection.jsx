@@ -10,7 +10,7 @@ function ImageSection() {
   fetchpriority="high"
   decoding="async"
   width="100%"
-  height="700" //largeur image 
+  height="700" //largeur image (height image)
   alt=""
   style={{ objectPosition: '50% 36%' }}
   data-object-fit="cover"
@@ -21,7 +21,7 @@ function ImageSection() {
   class="wp-block-cover__image-background wp-image-2734 lazyloaded"
   src=""
   sizes="(max-width: 2560px) 100vw, 2560px"
-  srcset="/agripic.jpg 2560w"
+  srcset="/AGRIAFRI.jpg 2560w"
 />
 
     </section>
