@@ -19,7 +19,7 @@ function ImageSection() {
   data-src="/agripic.jpg"
   data-sizes="(max-width: 2000px) 100vw, 2560px"
   class="wp-block-cover__image-background wp-image-2734 lazyloaded"
-  src=""
+  src="/agripic.jpg"
   sizes="(max-width: 2560px) 100vw, 2560px"
   srcSet="/agripic.jpg.jpg 2560w"
 />
