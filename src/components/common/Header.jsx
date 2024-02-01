@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 
+import '.../Header.css';
+
 import Button from 'react-bootstrap/Button';
 
 import Form from 'react-bootstrap/Form';
@@ -14,7 +16,7 @@ import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import './Header.css'; // Import your custom CSS file
-import ImageSection from '../ImageSection';
+import ImageSection from '../Image';
 
 //import your components
 import About from '../About';
