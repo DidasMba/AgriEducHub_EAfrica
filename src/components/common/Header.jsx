@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 // Import custom styles
-import '../Header.css';
+import './Header.css';
 
 // Import Bootstrap components
 import Button from 'react-bootstrap/Button';
