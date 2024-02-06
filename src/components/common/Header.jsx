@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 // Import custom styles
-import './Header.css';
+
 
 // Import Bootstrap components
 import Button from 'react-bootstrap/Button';
@@ -13,10 +13,10 @@ import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 // Import additional custom styles
-import './Header.css'; // Import your custom CSS file
+import '../Header.css'; // Import your custom CSS file
 
 // Import custom components
-import ImageSection from '../ImageSection';
+import ImageSection from '../imagesection.jsx';
 import About from '../About';
 import Users from '../Users';
 import Home from '../Home';
@@ -27,6 +27,7 @@ function Header() {
     <Router>
       <div>
         {/* Navbar section */}
+        
         <Navbar expand="lg" className="bg-body-tertiary">
           <Container fluid>
             <Navbar.Brand href="#" className="band">AgriLearn</Navbar.Brand>
@@ -81,6 +82,7 @@ function Header() {
         </Routes>
       </div>
     </Router>
+
   );
 }
 
