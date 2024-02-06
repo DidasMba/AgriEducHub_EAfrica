@@ -16,7 +16,7 @@ function ImageSection() {
   data-object-fit="cover"
   data-object-position="50% 36%"
   //data-srcset="https://example.com/simple-image.jpg 2560w"
-  data-src="../imgs/agripic.jpg"
+  data-src=".../imgs/agripic.jpg"
   data-sizes="(max-width: 2000px) 100vw, 2560px"
   class="wp-block-cover__image-background wp-image-2734 lazyloaded"
   src="../imgs/agripic.jpg"
